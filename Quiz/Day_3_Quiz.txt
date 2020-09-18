@@ -1,0 +1,8 @@
+//day 3 Quiz
+
+1) b
+2) c and d
+3) false
+4) e 
+5) b
+6) c,d,a
