@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Day10</display-name>
+  <welcome-file-list>
+    <welcome-file>WelcomeTo.java</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>WelcomeTo</display-name>
+    <servlet-name>WelcomeTo</servlet-name>
+    <servlet-class>com.hsbc.tr.WelcomeTo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WelcomeTo</servlet-name>
+    <url-pattern>/WelcomeTo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>name</display-name>
+    <servlet-name>name</servlet-name>
+    <servlet-class>com.demo.tr.name</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>name</servlet-name>
+    <url-pattern>/name</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>loginForm</display-name>
+    <servlet-name>loginForm</servlet-name>
+    <servlet-class>loginForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginForm</servlet-name>
+    <url-pattern>/loginForm</url-pattern>
+  </servlet-mapping>
+</web-app>

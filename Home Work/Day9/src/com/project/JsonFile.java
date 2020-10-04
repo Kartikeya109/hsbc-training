@@ -5,7 +5,7 @@ package com.project;
 
 /**
  * @author Kartikeya
- *
+ * Creating a json data with basic info
  */
 public class JsonFile {
 
